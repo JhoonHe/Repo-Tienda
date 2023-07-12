@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+.card{
+    /* border: 2px rgba(128, 128, 128, 0.678) solid; */
+    background-color: whitesmoke;
+    width: 555px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#granos{
+    background-color: rebeccapurple;
+    background: url(../img/granos.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#pasabocas{
+    background-color: red;
+    background: url(../img/pasabocas.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#aceites{
+    background-color: yellow;
+    background: url(../img/aceites.png);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    border: 2px black solid;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+}
