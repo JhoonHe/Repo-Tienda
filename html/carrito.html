@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">CARRITO DE COMPRAS</a>
+        <button id="btn-carrito">carrito</button>
+        <button id="btn-carrito-cerrar">cerrar</button>
+    </nav>
+    
+    <h1>Productos</h1>
+    
+    <div class="productos">
+    </div>
+    
+    <div class="carrito">
+        
+        <div class="carrito-content">
+            <!-- Contenido del carrito -->
+        </div>
+        <div class="carrito-message">
+            <p>No hay productos agregados en el carrito</p>
+        </div>
+        <div class="carrito-valores">
+            <p>Cantidad de productos: <span id="cantidad"></span></p>
+            <p>Total a pagar: <span id="total"></span></p>
+        </div>
+        <div class="carrito-buttons">
+            <button id="comprar">Comprar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+
+    <template id="template_productos">
+        <div class="producto-style">
+            <h2 id="nombre">nombre</h2>
+            <img src="">
+            <p id="precio">precio</p>
+            <button class="comprar">Comprar</button>
+        </div>
+    </template>
+    
+    <template id="template_carrito">
+        <div class="carro-style">
+            <img src="">
+            <h2 id="nombre">nombre</h2>
+            <p id="cantidad">cantidad</p>
+            <button id="aumentar">+</button>
+            <button id="decrementar">-</button>
+        </div>
+    </template>
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

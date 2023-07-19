@@ -1,0 +1,27 @@
+[
+    {
+        "Nombre": "Arroz",
+        "Precio": "2500",
+        "Url": "../img/arroz.png"
+    },
+    {
+        "Nombre": "Arvejas",
+        "Precio": "5000",
+        "Url": "../img/arvejas.png"
+    },
+    {
+        "Nombre": "Palitos",
+        "Precio": "2500",
+        "Url": "../img/palitos.png"
+    },
+    {
+        "Nombre": "Crispetas",
+        "Precio": "3000",
+        "Url": "../img/arroz.png"
+    },
+    {
+        "Nombre": "Aceite",
+        "Precio": "25000",
+        "Url": "../img/aceite.png"
+    }
+]
